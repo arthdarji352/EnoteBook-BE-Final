@@ -6,7 +6,7 @@ import cors from "cors";
 
 connectToMongo();
 const app = express();
-const port = 400;
+const port = 4000;
 // middleware
 app.use(express.json());
 app.use(cors());
